@@ -1,1 +1,0 @@
-console.log('dev.sh called to dev/flavorscript.js')
