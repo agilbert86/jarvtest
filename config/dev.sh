@@ -1,0 +1,1 @@
+node dev/flavorscript.js
