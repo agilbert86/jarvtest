@@ -1,0 +1,28 @@
+{
+	"projectName": "PROJECTNAME",
+	"prebuildScript":"prebuild.sh",
+	"buildFlavors": [
+		{
+			"name":"dev",
+			"configScript":"dev.sh"
+		}
+	],
+	"ios":{
+		"scheme":"PROJECTNAME",
+		"projectName":"PROJECTNAME",
+		"projectPath":"",
+		"projectFile":"PROJECTNAME.xcodeproj",
+		"signingCredentials":{
+			"provisioningProfile": "Appirio Mobile Apps Dev"
+		}
+	},
+	"hockeyApp": {
+		"dev":{
+	 		"appTitle": "PROJECTNAME",
+	 		"bundleIdentifier": "com.appirio.mobile.PROJECTNAME",
+	 		"platform":"iOS",
+	 		"hockeyAppToken":"b74bea0ce3d94eb4a2212c1350e960f6"
+ 		}
+ 	},
+	"postbuildScript": "postbuild.sh"
+}
