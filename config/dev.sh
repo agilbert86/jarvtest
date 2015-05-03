@@ -1,1 +1,1 @@
-node dev/flavorscript.js
+node pwd"dev/flavorscript.js"
